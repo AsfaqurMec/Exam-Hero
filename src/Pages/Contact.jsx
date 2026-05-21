@@ -6,7 +6,7 @@ import {
   FaChartLine, FaHandshake, FaUserTie, FaInfoCircle,
 } from "react-icons/fa";
 import { motion, useInView } from "framer-motion";
-import UseAxiosSecure from "../hooks/useAxiosSecure";
+import UseAxiosSecure from "../Hooks/UseAxiosSecure";
 import Swal from "sweetalert2";
 
 const fadeIn = {
