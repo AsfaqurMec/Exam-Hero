@@ -18,7 +18,7 @@ import {
   AiOutlineTeam,
   AiOutlineCaretDown,
 } from "react-icons/ai";
-import { AuthContext } from "../provider/AuthProvider";
+import { AuthContext } from "../Provider/AuthProvider";
 
 // Sub-components for better organization
 const DesktopNavigation = React.memo(({ 
