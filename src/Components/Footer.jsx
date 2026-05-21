@@ -201,7 +201,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center">
               <span className="text-gray-400 text-sm mr-2">DUNS:</span>
-              <span className="font-medium">Processing</span>
+              <span className="font-medium">732233010</span>
             </div>
           </div>
         </div>
