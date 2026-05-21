@@ -8,12 +8,12 @@ import {
   AiOutlineCheckCircle,
 } from "react-icons/ai";
 import SocialLogin from "./SocialLogin/SocialLogin";
-import useAxiosSecure from "../hooks/useAxiosSecure";
+import UseAxiosSecure from "../Hooks/UseAxiosSecure";
 import axios from "axios";
 
 export default function Register() {
   const { createUser, updateUserProfile, user } = useContext(AuthContext);
-  const axiosSecure = useAxiosSecure();
+  const axiosSecure = UseAxiosSecure();
   const [isLoading, setIsLoading] = useState(false);
   const [success, setSuccess] = useState("");
   const [showPassword, setShowPassword] = useState(false);

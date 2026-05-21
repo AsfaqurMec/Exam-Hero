@@ -6,7 +6,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible, AiOutlineLoading3Quarters } from "
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook } from "react-icons/fa";
 import SocialLogin from "./SocialLogin/SocialLogin";
-import useAxiosSecure from "../hooks/useAxiosSecure";
+import UseAxiosSecure from "../Hooks/UseAxiosSecure";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -14,7 +14,7 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const { signInUser, signInWithGoogle, signInWithFacebook, setUser } = useContext(AuthContext);
-  const axiosSecure = useAxiosSecure();
+  const axiosSecure = UseAxiosSecure();
 
   const { register, handleSubmit, formState: { errors } } = useForm();
 
